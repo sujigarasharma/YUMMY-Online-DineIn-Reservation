@@ -63,11 +63,14 @@ ARCHITECTURE DIAGRAM
 
 
 ADMIN PAGE
+
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/7cfa404f-ee6a-4e5c-aa82-dc7af037dad6">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/725436a1-3866-4566-9b49-bdbbc80e2c9d">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/de010ddf-3eeb-418a-9bbc-035f3df449a2">
 
+
 RESTAURANT PAGE
+
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/c7632253-3f78-4321-ac03-2c505b878e59">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/e9041b10-c5aa-484c-bf5e-e50fb99b2e30">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/64b444bb-14fb-475b-9922-f2cea431b972">
@@ -80,6 +83,7 @@ RESTAURANT PAGE
 
 
 USER PAGE
+
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/4ffbb42f-8fec-4cb7-94d9-9a2da8fba67f">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/0179513e-1889-4111-b889-b68b86c4c04f">
 <img width="450" alt="image" src="https://github.com/sujigarasharma/YUMMY_Online_DineIn_Reservation/assets/114681230/f7815c23-50b6-438a-92c5-5747a6776fca">
