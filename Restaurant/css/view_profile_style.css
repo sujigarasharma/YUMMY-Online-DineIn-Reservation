@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: rgb(243, 243, 243);
+}
+.content_table{
+  width:99.8%;
+  height: 50%;
+}
+
+.hotel_name{
+  font-family:"josefin sans medium";
+  font-size: 2vw;
+}
+.hotel_rating{
+  margin-top: 2vw;
+  margin-left: .5vw;
+  font-size: 0.8vw;
+}
+.for_displaying_in_same_line{
+  display: flex;
+  margin-bottom: -1.5vw;
+  margin-top: -1.5vw;
+}
+.title_coloum_width{
+  width: 76%;
+}
+.hotal_location{
+  font-family:"josefin sans Thin";
+  font-size: 0.8vw;
+  margin-left:0.2vw;
+}
+.text{
+  font-family:"josefin sans Extra-light";
+  display:block;
+  font-size: 0.9vw;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 15.625vw;
+  height: 15.625vw;
+  border: 1x solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.custom-file-input{
+  width: 15.3vw;
+  display: block;
+  margin-left: 4vw ;
+  font-size: .7vw;
+}
+input[type=file]::file-selector-button {
+  border: 0.10vw solid #6c5ce7;
+  border-radius: .2em;
+  background-color: #a29bfe;
+  height: 1.5vw;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #ffcd35;
+  border: 0.10vw solid #ca9800;
+}
+
+.file_table{
+  table-layout: fixed;
+}
+.row_height{
+  height:2vw;
+}
+.input{
+  width: 15vw;
+  display:block;
+  height: 2vw;
+  background-color: rgb(235, 235, 235);
+  border: .1vw solid rgb(0, 0, 0);
+  font-size: 1vw;
+}
+.label_tell{
+  font-family:"josefin sans medium";
+  display:block;
+  font-size: 1vw;
+}
+
+.extra_table_width{
+  width: 10vw;
+  height: 2vw;
+}
+.td_test_align{
+  width: 20vw;
+  height: 2vw;
+}
+.row_height_1{
+  display:block;
+  height:1vw;
+}
+.final_row{
+  height: 2.5vw;
+  width: 12vw;
+ text-align: center;
+}
+.edit_page{
+  width: 10vw;
+  font-size: 1vw;
+  height: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #3cc5f9 ;
+  color: rgb(255, 255, 255);
+  border: 0.1vw solid black;
+  border-radius: 1px;
+}
+.edit_page:hover{
+  width: 10vw;
+  font-size: 1.01vw;
+  height: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #3cc5f9 ;
+  color: rgb(0, 0, 0);
+  border: 0.1vw solid black;
+  border-radius: 1px;
+}
+.submit{
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1vw;
+  height: 2vw;
+  display: block;
+  background-color: #ffcd35;
+  color: rgb(255, 255, 255);
+  border: 0.1vw solid black;
+  border-radius: 1px;
+}
+.submit:hover{
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.01vw;
+  height: 2vw;
+  display: block;
+  background-color: #ffcd35;
+  color: rgb(0, 0, 0);
+  border: 0.1vw solid black;
+  border-radius: 1px;
+}

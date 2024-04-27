@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: rgb(243, 243, 243);
+}
+.category_border{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 27.5%;
+    background-color: #59686e;
+    border: none;
+    height: 33vw;
+}
+.content_border{
+    width: 70%;
+    height: 33.8vw;
+    margin-left: .7vw;
+    display: none;
+}
+.field_border{
+     width: 97.9%;
+     height: 33vw;
+     background-color: white;
+     border:none;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.hotel_mean_table{
+    margin-top: .15vw;
+    width: 99.8%;
+    border:1px solid black;
+    height: 33vw;
+}
+.table_row_1{
+    height: 4vw;
+}
+.table_col_1{
+    width: 99.8%;
+    border-bottom: 1px solid white;
+}
+.table_row_2{
+  height: 1.2vw;
+  border-bottom: 1px solid white;
+}
+.table_row_3{
+  height: 2.5vw;
+}
+.table_col_3{
+  height: 2vw;
+}
+.hotel_name{
+    font-size:1.8vw;
+    text-align: center;
+    color: white;
+    font-family:"josefin sans semibold"; border: 0;
+}
+.edit_menu{
+    font-size:1.45vw;
+    text-align: center;
+    color: #3cc5f9;
+    font-family:"josefin sans Light";
+    margin-top: -0.8vw;
+}
+.empty_row{
+  height: .3vw;
+}
+.col_title_text{
+  font-family:"josefin sans semibold";
+  font-size: 1.35vw;
+  text-align: left;
+  margin-left: .5vw;
+  margin-bottom: .2vw;
+  color: #ffcd35;
+}
+.part_of_day{
+  display: block;
+}
+.table_row_5{
+  height: 2.4vw;
+}
+.container_cuisine {
+  position: relative;
+  padding-left: .9vw;
+  cursor: pointer;
+  font-size: 0.8vw;
+  margin-left: 1.25vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: #ffff;
+  user-select: none;
+  font-family:"josefin sans semibold";
+}
+.container_cuisine input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.container_cuisine_checkmark {
+  position: absolute;
+  top: -0.35vw;
+  left: -0.75vw;
+  height: 1.4vw;
+  width: 1.4vw;
+  background-color: rgb(179, 179, 179);
+  border-radius: 50%;
+}
+.container_cuisine:hover input ~ .container_cuisine_checkmark {
+  background-color: #fdfdfd;
+}
+.container_cuisine input:checked ~ .container_cuisine_checkmark {
+  background-color: #ff4e18;
+}
+.container_cuisine_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container_cuisine input:checked ~ .container_cuisine_checkmark:after {
+  display: block;
+}
+.container_cuisine .container_cuisine_checkmark:after {
+     top: 0.47vw;
+    left: 0.47vw;
+    width: 0.35vw;
+    height:0.35vw;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.last_row{
+  height: 3vw;
+}
+.btn_submit{
+  height: 1.8vw;
+  margin-left: 19vw;
+  width: 20%;
+  font-size: 0.8vw;
+  font-family:"josefin sans medium";
+  background-color: #e9b826 ;
+  border: none;
+  display:block;
+}
+label{
+  display:block;
+}
+
+.table_border_table2{
+  width: 65vw;
+  height: auto;
+  border:1px solid black;
+}

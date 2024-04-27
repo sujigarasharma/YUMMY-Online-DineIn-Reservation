@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.Dishes_table_content{
+    width: 95vw;
+    height: auto;
+    border: 1px solid rgb(255, 0, 0);
+    border-collapse: collapse;
+}
+table tr td,
+table tr th {
+    border: 1px solid black;
+    padding: .3vw;
+}
+td{
+    text-align: center; 
+    font-size: 1.2vw;
+    font-family:"josefin sans semibold";
+}
+tr{
+    height: 4vw; 
+    
+}
+th{
+  background-color: rgb(255, 94, 0);
+  color: white;
+  font-size: 1.5vw; 
+    font-family:"josefin sans semibold";
+}
+.dishe_name{
+    width: 9.5vw;
+    height: 2.4vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Dishe_price{
+    width: 5.5vw;
+    height: 2.4vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Dishe_image{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Dishe_aval_time{
+    width: 7.5vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col_1{
+    width: .1vw;
+}
+.col_2{
+    width: 10vw;
+}
+.col_3{
+    width:8vw;
+}
+.col_4{
+    width: 6vw;
+}
+.col_5{
+    width: 10vw;
+}
+.col_6{
+    width: 10vw;
+}
+.col_7{
+    width: 8vw;
+}
+.col_8{
+    width: 8vw;
+}
+input[type=file]::file-selector-button {
+    border: 0.10vw solid #6c5ce7;
+    background-color: #a29bfe;
+    color: white;
+    width: 6vw;
+    height: 2.2vw;
+    font-size: .9vw;
+    font-family:"josefin sans medium";
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #ffcd35;
+    border: 0.10vw solid #ca9800;
+  }
+  .custom-file-input{
+    width: 15.3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9vw;
+    font-family:"josefin sans medium";
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+label{
+    display: block;
+}
+input{
+    display: block;
+}
+.container_cuisine {
+    position: relative;
+    padding-left: .9vw;
+    cursor: pointer;
+    font-size: 1vw;
+    margin-left: 1.25vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    font-family:"josefin sans semibold";
+  }
+  .container_cuisine input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .container_cuisine_checkmark {
+    position: absolute;
+    top: -0.40vw;
+    left: -0.75vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: rgb(131, 131, 130);
+    border-radius: 50%;
+  }
+  .container_cuisine:hover input ~ .container_cuisine_checkmark {
+    background-color: #ffcd35;
+  }
+  .container_cuisine input:checked ~ .container_cuisine_checkmark {
+    background-color: #ffcd35;
+  }
+  .container_cuisine_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container_cuisine input:checked ~ .container_cuisine_checkmark:after {
+    display: block;
+  }
+  .container_cuisine .container_cuisine_checkmark:after {
+       top: 0.52vw;
+      left: 0.52vw;
+      width: 0.35vw;
+      height:0.35vw;
+      border-radius: 50%;
+      background: #ffffff;
+  }
+  .submit{
+    height: 3vw;
+    background-color: #38352d00;
+    border: none;
+    font-size: 2.5vw;
+    margin-top: -.7vw;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submit:hover{
+    height: 3vw;
+    background-color: #38352d00;
+    color: rgb(255, 17, 0);
+    border: none;
+    font-size: 2.7vw;
+    margin-top: -.7vw;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Btn{
+
+    width: 10vw;
+    background-color: #3cc5f9 ;
+    height: 2.5vw;
+    font-size: .9vw;
+    border: .1vw solid black;
+    color: white;
+    font-family:"josefin sans medium";
+  }
+  .Btn:hover{
+    font-size: 1vw;
+  }
+  .final-submit{
+    width: 10vw;
+    background-color: #ffcd35;
+    border: .1vw solid black;
+    margin-left: .5vw;
+    height: 2.5vw;
+    font-size: 1vw;
+  }
+.cuisine_title{
+    font-family:"josefin sans semibold";
+    font-size: 2.7vw;
+}
+.center_field{
+  margin-top: 3vw;
+}
+.hor_line{
+  margin-top: -.5vw;
+  color: black;
+  width: 45vw;
+}
+hr{
+  width: 95vw;
+}
+.delete_c_row{
+  border:none;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 2vw;
+}
+.delete_cancel_row{
+  border:none;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 2vw;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: rgb(243, 243, 243);
+}
+table{
+    width: 28%;
+    font-size: 1.2vw;
+    font-family:"josefin sans medium";
+    border-collapse: collapse;
+}
+.table_border_2{
+    font-size: 1.2vw;
+    font-family:"josefin sans medium";
+    width: 45%;
+    margin-top: 2%;
+}
+.table_date_bording{
+    width: 40%;
+    height:4vw;
+}
+.table_date_bording_1{
+    height:3vw;
+    font-size: 1.5vw;
+    border-bottom: 1px solid black;
+    font-family:"josefin sans semibold";
+}
+.epmty{
+    height:1vw;
+}
+.select_total_banners{
+    width: 25%;
+    text-align: left;
+    height:2.5vw;
+    font-size: 1.5vw;
+    font-family:"josefin sans Light";
+    font-size: 1%;
+}
+.select_image_text{
+    width: 50%;
+    text-align: right;
+    height:2.5vw;
+   
+    font-family:"josefin sans Light";
+}
+.select_input{
+    height: 1.5vw;
+    width: 4vw;
+    text-align: center;
+    border:.5px solid black;
+}
+.col{
+    width: 2%;
+    height:2.5vw;
+}
+tr{
+    text-align: center;
+}
+.col_2{
+    height: 2.5vw;
+} 
+.col_1{
+    text-align: center;
+    height: 2.5vw;
+    text-align: center;
+} 
+.col_h{
+    height: 2.5vw;
+}
+.botton{
+    height: 1.5vw;
+    background-color: #ffcd35;
+    border: none;
+    width: 4.4vw;
+    font-family:"josefin sans semibold";
+    font-size: 0.70vw;
+    display:block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.botton:hover{
+    border:0.5px solid black;
+    font-size: 0.75vw;
+}
+.select_botton_left{
+    text-align: left;
+}
+.image_submit{
+    height: 1.5vw;
+    background-color: #ffffff ;
+    border: 0.1vw solid black;
+    width: 3.6vw;
+    font-family:"josefin sans semibold";
+    font-size: 0.78vw;
+    margin-right: .5vw;
+}
+.image_submit:hover{
+   
+    font-size: 0.80vw;
+    background-color: #3cc5f9 ;
+    
+    color: white;
+}
+.image_edit{
+    height: 2vw;
+    width: 2vw;
+  padding: .5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image_edit:hover{
+    opacity: 0.5;
+}
+.image_upload{
+    border: none;
+    background: none;
+    margin-right:-0.3vw;
+}
+.uploader{
+    height: 2vw;
+    padding: .5vw;
+    width: 2vw;
+    cursor: pointer;
+}
+.uploader:hover{
+    opacity: 0.5;
+}
+.edit{
+    height: 2vw;
+    padding: .5vw;
+    width: 2vw;
+    cursor: pointer;
+    margin-top: .1vw;
+}
+.edit:hover{
+    opacity: 0.5;
+}
+.final_button{
+    text-align:right;
+    border:none;
+}
+.input{
+    display:block;
+    width: 18vw;
+    height: 1.8vw;
+    background-color: rgb(235, 235, 235);
+    border: .1vw solid rgb(0, 0, 0);
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=file]::file-selector-button {
+  border: 0.10vw solid #6c5ce7;
+  border-radius: .2em;
+  background-color: #a29bfe;
+  cursor: pointer;
+  height: 1.5vw;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #ffcd35;
+  border: 0.10vw solid #ca9800;
+}
+.custom-file-input{
+    width: 15.3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .7vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
