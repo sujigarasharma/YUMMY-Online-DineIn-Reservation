@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: white;
+}
+.hotel_table_outer{
+    width: 98.25vw;
+    height: auto;
+}
+.hotel_content_outer{
+    width: 23vw;
+    height: 26vw;
+    margin-left: 1.1vw;
+    background: #fafafa00;
+    border: none;
+}
+.card {
+    width: 23vw;
+    height: 26vw;
+  }
+  
+  .card:hover {
+    border:1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .hotel_img_size{
+      width: 21.5vw;
+      height: 15vw;
+      margin-top: 0.5vw;
+  }
+  .container{
+    padding: 0vw 0.8vw;
+  }
+  .hotel_title{
+    font-size: 1.49vw;
+    margin-right: 0.3vw;
+    font-family:"josefin sans semibold";
+    display: block;
+  }
+.content_table{
+    width:30vw;
+    height: 9vw;
+   
+}
+.content_table tr{
+    height:1.5vw;
+}
+.hotel_name{
+  font-family:"josefin sans medium";
+  font-size: 1.5vw;
+  margin-top: -0.7vw;
+  margin-left: 0.1vw;
+}
+.for_displaying_in_same_line h4{
+    font-family:"josefin sans thin";
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+.for_displaying_in_same_line h3{
+    font-family:"josefin sans medium";
+    font-size: 0.75vw;
+    margin-top: -0.5vw;
+    margin-left: 0.5vw
+}
+.checked {
+    color: orange;
+}
+.hotel_rating{
+    margin-left: .5vw;
+
+}
+#hotel_star_rating{
+        font-size: 1vw;
+        margin-top: .3vw;
+}
+.dot_span{
+    font-size: 1.5vw;
+    margin-left: 0.5vw;
+    margin-top: -.28vw;
+}
+.timming{
+    font-family:"josefin sans medium";
+    margin-left: .4vw;
+    font-size: 1vw;
+    margin-top: .3vw;
+}
+span{
+    display: block;
+}
+.for_displaying_in_same_line{
+    margin-top: 1vw;
+}
+.rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+    margin:10px;
+    display:flex;
+}
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
+}
+
+button{
+  height:2vw;
+}
+.bold padding-bottom-7{
+  margin-top:-1vw;
+}
+ .total_rating{
+    font-family:"josefin sans medium";
+   font-size: 1.7vw;
+   margin-top: 0vw;
+ }
+ small{
+    font-family:"josefin sans medium";
+    font-size: 1vw;
+     margin-top: 0.5vw;
+ }

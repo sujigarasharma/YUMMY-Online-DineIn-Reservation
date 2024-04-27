@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resturant Registration</title>
+        <link rel="Stylesheet" href="css\Registeration_Styling.css">
+        <script type = "text/javascript" src="js/Registration_validation_form.js"></script>  
+    </head>
+    <style>
+      label{
+        color: black;
+      }
+    </style>
+    <body>
+	<br>
+<!--middle (mean content)-->
+          <fieldset id="Middle_fieldset" style="height:36.5vw">
+              <h2 id="sign_up_text">Resturant Registration</h2>
+              <br>
+<!--Form start's from Here-->
+        <form method="post" action="hotelregistration.php" name="registration_form" >
+            <table  id="table_for_signup_page" >
+                <tr>
+                     <td>
+                         <div class="group">      
+                           <input type="text" name="Hotel_ID" id="Hotel_ID" class="input" required >
+                           <label>Hotel ID</label>
+                         </div>
+                    </td>
+                    <td>
+                         <div class="group">      
+                           <input type="text" name="Hotel_name" id="Hotel_name" class="input" required>
+                           <label>Hotel name</label>
+                         </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td colspan="3">
+                         <div class="group_email_id">      
+                           <input type="text" name="Email_ID" id="EmailID_input" class="input" required>
+                           <label id="label_email">Email ID</label>
+                         </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="group">      
+                          <input type="password" name="Password" id="Password" class="input" required >
+                          <label>Password</label>
+                        </div>
+                   </td>         
+                    <td>
+                         <div class="group">      
+                           <input type="text" name="Hotel_GST_code" id="Hotel_GST_code" class="input" required >
+                           <label>Hotel GST Code</label>
+                         </div>
+                    </td>
+                </tr> 
+                <tr>
+                     <td colspan="3">
+                         <div class="group_email_id">      
+                           <input type="text" name="Location" id="EmailID_input" class="input" required>
+                           <label id="label_email">Location</label>
+                         </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>
+                         <div class="group_end">      
+                           <input type="text" name="Phone_number" id="Phone_number" class="input" required >
+                           <label>Phone Number</label>
+                         </div>
+                    </td>                    
+                    <td>
+                         <div class="group_end" >      
+                           <input type="text" name="Landline_number" id="Landline_number" class="input" required >
+                           <label>Landline Number</label>
+                         </div>
+                    </td>
+                </tr>   
+                <tr>
+                     <td>
+                         <div class="group_end">      
+                           <input type="text" name="Opening_timing" id="Opening_timing" class="input" required >
+                           <label>Opening Timing</label>
+                         </div>
+                    </td>                    
+                    <td>
+                         <div class="group_end" >      
+                           <input type="text" name="Closing_timing" id="Closing_timing" class="input" required >
+                           <label>Closing Timing</label>
+                         </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                      <div class="group_end">      
+                        <input type="text" name="Hotel_Special" id="Hotel_Special" class="input" required>
+                        <label>Hotel Special Dish</label>
+                      </div>
+                 </td>                    
+                 <td>
+                      <div class="group_end" >      
+                        <input type="text" name="high_price" id="high_price" class="input" required >
+                        <label>Starting dish price</label>
+                      </div>
+                 </td>
+             </tr>
+                <tr>
+                    <td colspan="2"><button id="submit_button" style="margin-left:12.5vw;margin-top:-1.3vw" onclick = "ValidateForm()">Submit</button></td>
+                </tr>
+            </table>
+        </form>        
+        </fieldset>
+    </body>
+</html>

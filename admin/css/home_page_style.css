@@ -1,0 +1,95 @@
+.col-8{
+    width:99.8%;
+    height: 17.25vw;
+    float:left;
+    background-color: rgba(88, 88, 90, 0.938);
+  }
+  .main{
+    width:100%;
+    margin-top: 0.65vw;
+    margin-left: -0vw;
+  }
+  .glide__arrows{
+    position: absolute;
+    top: 8vw;
+    width: 78.5vw;
+  }
+  .glide__track{
+    width:83.5%;
+    height: 17.25vw;
+  }
+  .image_arrows{
+    border: 0px solid black;
+    width: 2.5vw;
+  }
+  .glide__arrows .glide__arrow{
+    border: 0px solid black;
+  }
+  .glide__arrows .glide__arrow.glide__arrow--left{
+        left: 6.8vw;
+  }
+  .glide__arrows .glide__arrow.glide__arrow--right{
+        right: -13.5vw;
+  }
+  #adimg{
+   width: 14.5vw;
+  }
+  #adimg:hover{
+    width: 15vw;
+   
+  }
+  #image_arrows_left:hover{
+    width: 3vw;
+  }
+  #image_arrows_right:hover{
+    width: 3vw;
+  }
+  .table_2{
+    width: 81vw;
+    height: auto;
+    position: absolute;
+    top:22.75vw;
+    left: 9.3vw;
+    border-collapse: collapse;
+    border-top: none;
+    border-left: none;
+    border-bottom: .025vw solid black;
+    border-right: none;
+  }
+  .table_2 tr{
+   height: 2.5vw;
+  }
+  .th_1{
+    width: 35vw;
+    text-align: left;
+  }
+  .th_1 h3{
+    margin-left: 1vw;
+  }
+  .th_6{
+    width: 5vw;
+  }
+  .Table_head_title{
+    font-family:"josefin sans thin";
+    display:block;
+    font-size: 0.9vw;
+    margin-bottom: -0vw;
+   }
+   .Table_head_title:hover{
+        font-size: 1vw;
+   }
+   .total_rest{
+    font-family:"josefin sans medium";
+    display:block;
+    font-size: 1.3vw;
+    margin-bottom: 0.5vw;
+   }
+   .th_2{
+     width: 8.5vw;
+   }
+   .btn_title_style{
+    text-decoration: none;
+    background:rgba(0, 0, 0, 0);
+    border:none;
+   }
+  

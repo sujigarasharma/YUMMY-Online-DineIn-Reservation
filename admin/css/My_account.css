@@ -1,0 +1,133 @@
+#body{
+    background-image:url('background.jpg');
+    background-repeat: no-repeat;
+    height:100%; 
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(23, 24, 63);}
+
+#logo_img{
+    float: left;
+    margin-left: 5px;
+    width:260px;
+    height: 80px;
+    align-items:center;
+    display: flex;   
+}
+#header_title{
+    position: relative;
+    top:2px;
+    margin-right: 10px;
+    color:white;
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow:2px 2px 4px rgb(243, 101, 6);
+    
+}
+#header_title1{
+    position: relative;
+    top:10px;
+    color:white;
+    font-family: Lucida Handwriting;
+    font-size: 40px;
+}
+#header_field{
+    background-color: rgba(0, 0, 0, 0.404);
+    border: none;
+}
+#header_field2{
+    background-color: rgba(0, 0, 0, 0.404);
+    border: none;
+    height: 55px;
+}
+#field1{
+    background-color: white;
+    border: none;
+    margin-top: 70px;
+    width:1200px;
+    margin-left: 290px;
+    height: 600px;
+}
+#profile{
+    height: 580px;
+    width: 330px;
+    border: none;
+}
+#Accountdetails{
+    width: 800px;
+    border: none;
+}
+#user{
+    width:100px;
+    margin-left: 110px;
+}
+#output{
+    font-size: 26px;
+    margin-left: 80px;
+    font-family: franklin Gothic;
+}
+#output1{
+    font-size: 20px;
+    font-family: fconsolas;
+    color: black;
+}
+#button{
+    height: 40px;
+    border-left: rgb(88, 84, 84);
+    border-right: rgb(46, 45, 45);
+    width:320px;
+    background-color: white;
+    font-size: 18px;
+}
+#button:hover{
+    height: 40px;
+    border-left: rgb(255, 255, 255);
+    border-right : rgb(255, 255, 255);
+    width:320px;
+    color: white;
+    background-color: rgb(20, 87, 231);
+    font-size: 20px;
+}
+#button1{
+    margin-top: 10px;
+    height: 40px;
+    background-color: white;
+    border-left: black;
+    border-right: black;
+    width:320px;
+    font-size: 18px;
+}
+#button1:hover{
+    height: 40px;
+    border-left: rgb(255, 255, 255);
+    border-right : rgb(255, 255, 255);
+    width:320px;
+    color: white;
+    background-color: rgb(250, 21, 4);
+    font-size: 20px;
+}
+#button2{
+    margin-top: 200px;
+    height: 40px;
+    background-color: white;
+    width:320px;
+    font-size: 18px;
+}
+#button2:hover{
+    height: 40px;
+    border-left: rgb(255, 255, 255);
+    border-right : rgb(255, 255, 255);
+    width:320px;
+    color: white;
+    background-color: rgb(20, 87, 231);
+    font-size: 20px;
+}
+.styles{
+    font-size: 20px;
+    color: rgb(255, 72, 0);
+}
+#center{
+    margin-top: 10px;
+  border-left: 2px solid black;
+  height: 570px;
+}

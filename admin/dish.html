@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Dish</title>
+        <link rel="Stylesheet" href="css\styleul.css">
+        <script type = "text/javascript" src="js/Registration_validation_form.js"></script>  
+    </head>
+    <body>
+	<br>
+<!--middle (mean content)-->
+          <fieldset id="Middle_fieldset">
+              <h2 id="sign_up_text">Add New Dish</h2>
+              <br>
+<!--Form start's from Here-->
+        <form method="post" action="dishins.php" name="registration_form" >
+            <table  id="table_for_signup_page" >
+                <tr>
+					 <td><label>Dish Name</label></td>
+                     <td>
+                         <div class="group">      
+                           <input type="text" name="dishname" id="dishname" class="input" required >
+						   
+                         </div>
+                    </td>
+				</tr>
+                <tr>
+					 <td><label>Choose a Dish Type:</label></td>
+                     <td>
+                         <div class="group">      
+						     		  	<select name="DishType" id="DishType">
+						      			 	<option value="Kashmiri">Kashmiri</option>
+						       			<option value="Punjabi">Punjabi</option>
+						       			<option value="Uttar_Pradesh">Uttar_Pradesh</option>
+						       			<option value="Maghalai">Maghalai</option>
+						      			 	<option value="Rajasthan">Rajasthan</option>
+						       			<option value="Gujarat">Gujarat</option>
+						       			<option value="Bengali">Bengali</option>
+						       			<option value="Andhra">Andhra</option>
+						      			 	<option value="Goan">Goan</option>
+						       			<option value="Tamilian">Tamilian</option>
+						       			<option value="Kerala">Kerala</option>
+						       			<option value="Other">Other</option>
+						    </select>
+                         </div>
+                    </td>
+				</tr>
+				 <tr>
+					  <td><label>Veg or Nonveg:</label></td>
+				<td>
+					<div class="group">      
+			        <input type="radio" name="VegorNonveg" id="Veg" value="Veg" checked>
+			        <label for="Veg">Veg</label> &nbsp &nbsp / &nbsp &nbsp
+			        <input type="radio" name="VegorNonveg" id="Nonveg" value="Nonveg">
+			        <label for="Nonveg">Nonveg</label>
+					 </div>
+				</td>
+        		</tr>
+                <tr>
+                    <td ><button id="submit_button" onclick = "ValidateForm()">Submit</button></td>
+                </tr>
+            </table>
+        </form>        
+        </fieldset>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/admin_login_page_stylesheet.css">
+</head>
+<body>
+    <fieldset id="Middle_fieldset">
+        <img src="img/yummy.gif" id="Login_logo">
+        <h2 id="Login_text">Sign in</h2>
+        <form method="post" action="login.php" name="restaurant_login_page">
+            <table  id="table_for_login_page">
+            <!--Row-1-->
+                <tr>
+                <!--Coloum 1-->
+                     <td >
+                         <div class="group">      
+                           <input type="text" name="Admin_ID" id="Username" class="input" required >
+                           <label>Admin ID</label>
+                         </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div class="group">      
+                        <input type="password" name="Password" id="Password" class="input" required >
+                        <label>Password</label>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="final_button"> <button id="back">Back</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="submit_button" onclick = "ValidateForm()">Submit</button></td>
+                </tr>
+    </fieldset>
+</body>
+
+</html>

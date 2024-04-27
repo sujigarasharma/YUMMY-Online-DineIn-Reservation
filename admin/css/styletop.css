@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display&display=swap');
+body
+{
+	margin: 0;
+	height :30px;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pf{
+	font-family: 'Playfair Display', serif;
+	font-size:14px;
+}
+a:hover 
+{
+  color: #C2C2C2;
+}
+
+
+a
+{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #F2F2F2;
+	font-size:16px;
+  	text-decoration:none;
+}
+

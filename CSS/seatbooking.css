@@ -1,0 +1,438 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+#Bfield1{
+    width: 90vw;
+    height: 39vw;
+    border:none;
+    border: 0.1vw solid black;
+    margin-top: 2vw;
+}
+#Btitle{
+    width: 90vw;
+    height: 3.2vw;
+    background-color: #3cc5f9;
+    border-left: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+}
+#Btitle h2{
+    position: absolute;
+    left: 49.5%;
+    transform: translateX(-50%);
+    font-size:1.25vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+}
+.chair{
+    width: 2.5vw;
+    margin-top: .5vw;
+}
+#intotext{
+    font-size: 0.75vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#table{
+    position: absolute;
+    right:5.5vw;
+}
+#receptioncounter{
+    position: absolute;
+    top:36vw;
+    left:8vw;
+}
+#counter{
+    width:8vw;
+}
+#Rarea{
+    margin-top: -0.6vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1vw;
+    color: black;
+}
+#table_1{
+    width: 12vw;
+    position: absolute;
+    top:9vw;
+    left:22vw;
+}
+#table_2{
+    width: 12vw;
+    position: absolute;
+    top:15vw;
+    left:22vw;
+}
+#table_3{
+    width: 12vw;
+    position: absolute;
+    top:27vw;
+    left:22vw;
+}
+#table_4{
+    width: 12vw;
+    position: absolute;
+    top:33vw;
+    left:22vw;
+}
+#seater_1{
+    width: 16vw;
+    position: absolute;
+    top:10vw;
+    left:42vw;
+}
+#seater_2{
+    width: 16vw;
+    position: absolute;
+    top:28vw;
+    left:42vw;
+}
+#Rtable_1{
+    width: 12vw;
+    position: absolute;
+    top:9vw;
+    right:22vw;
+}
+#Rtable_2{
+    width: 12vw;
+    position: absolute;
+    top:15vw;
+    right:22vw;
+}
+#Rtable_3{
+    width: 12vw;
+    position: absolute;
+    top:27vw;
+    right:22vw;
+}
+#Rtable_4{
+    width: 12vw;
+    position: absolute;
+    top:33vw;
+    right:22vw;
+}
+
+#table_1_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:13vw;
+    left:31.1vw;
+    cursor: pointer;
+}
+#table_2_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:13vw;
+    left:21.75vw;
+    cursor: pointer;
+}
+#table_3_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:19vw;
+    left:21.75vw;
+    cursor: pointer;
+}
+#table_4_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:19vw;
+    left:31.1vw;
+    cursor: pointer;
+}
+#table_5_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:31vw;
+    left:21.75vw;
+    cursor: pointer;
+}
+#table_6_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:31vw;
+    left:31.1vw;
+    cursor: pointer;
+}
+#table_7_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:37.1vw;
+    left:21.75vw;
+    cursor: pointer;
+}
+#table_8_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:37.1vw;
+    left:31.1vw;
+    cursor: pointer;
+}
+
+#table_25_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:13vw;
+    right:31.1vw;
+    cursor: pointer;
+}
+#table_26_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:13vw;
+    right:21.75vw;
+    cursor: pointer;
+}
+#table_27_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:19vw;
+    right:21.75vw;
+    cursor: pointer;
+}
+#table_28_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:19vw;
+    right:31.1vw;
+    cursor: pointer;
+}
+#table_29_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:31vw;
+    right:21.75vw;
+    cursor: pointer;
+}
+#table_30_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:31vw;
+    right:31.1vw;
+    cursor: pointer;
+}
+#table_31_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:37.1vw;
+    right:21.75vw;
+    cursor: pointer;
+}
+#table_32_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:37.1vw;
+    right:31.1vw;
+    cursor: pointer;
+}
+#table_9_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:16.5vw;
+    left:40.8vw;
+    cursor: pointer;
+}
+#table_10_chair{
+    width: 3vw;
+    position: absolute;
+    top:11.2vw;
+    left:45vw;
+    cursor: pointer;
+}
+#table_11_chair{
+    width: 3vw;
+    position: absolute;
+    top:11.2vw;
+    left:48.5vw;
+    cursor: pointer;
+}
+#table_12_chair{
+    width: 3vw;
+    position: absolute;
+    top:11.2vw;
+    left:52vw;
+    cursor: pointer;
+}
+#table_13_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:16.5vw;
+    right:40.8vw;
+    cursor: pointer;
+}
+#table_14_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:22.25vw;
+    left:45vw;
+    cursor: pointer;
+}
+#table_15_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:22.25vw;
+    left:48.5vw;
+    cursor: pointer;
+}
+#table_16_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:22.25vw;
+    left:52vw;
+    cursor: pointer;
+}
+
+
+
+#table_17_chair{
+    width: 3vw;
+    transform: rotateZ(270deg);
+    position: absolute;
+    top:34.7vw;
+    left:40.8vw;
+    cursor: pointer;
+}
+#table_18_chair{
+    width: 3vw;
+    position: absolute;
+    top:29.2vw;
+    left:45vw;
+    cursor: pointer;
+}
+#table_19_chair{
+    width: 3vw;
+    position: absolute;
+    top:29.2vw;
+    left:48.5vw;
+    cursor: pointer;
+}
+#table_20_chair{
+    width: 3vw;
+    position: absolute;
+    top:29.2vw;
+    left:52vw;
+    cursor: pointer;
+}
+#table_21_chair{
+    width: 3vw;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top:34.7vw;
+    right:40.8vw;
+    cursor: pointer;
+}
+#table_22_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:40.24vw;
+    left:45vw;
+    cursor: pointer;
+}
+#table_23_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:40.24vw;
+    left:48.5vw;
+    cursor: pointer;
+}
+#table_24_chair{
+    width: 3vw;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top:40.24vw;
+    left:52vw;
+    cursor: pointer;
+}
+#continue{
+    width:6vw;
+    position: absolute;
+    top:42.24vw;
+    left:88.3vw;
+    border-radius: .2vw;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(134, 223, 0);
+}
+#continue:hover{
+    background-color: rgb(0, 185, 0);
+}
+#cancel{
+    width:6vw;
+    position: absolute;
+    top:42.24vw;
+    left:81.5vw;
+    background-color: rgba(66, 66, 66, 0.349);
+    border-radius: .2vw;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cancel:hover{
+    background-color: red;
+    
+}
+
+#dateandtimeinput{
+    border:none;
+    background-color: #ffcd35;
+    border-radius: 1vw;
+    width:13vw;
+    height: 6vw;
+    position: absolute;
+    top:35vw;
+    left:80.5vw;
+}
+
+#dateinput{
+    width:8vw;
+    height: 1vw;
+    font-size: 0.8vw;
+}
+#timeinput{
+    width:8vw;
+    height: 1vw;
+    font-size: 0.8vw;
+}
+#display{
+    display: flex;
+    align-items: center;
+}
+.display1{
+    margin-top: -1vw;
+}
+#display h4{
+    font-size: 0.85vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.display2{
+    margin-top: -1vw;
+}
+#datetimebox{
+    margin-left: 0.8vw;
+}
+
+#titlebox{
+    margin-top: 0.35vw;
+    font-size: 0.9vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
